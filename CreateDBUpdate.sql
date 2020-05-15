@@ -1,3 +1,4 @@
+-- ovo je branck 2-3 dodatak na zadnji kojeg smo promijenili u mastera
 create database WebPrintTrackDB;
 use WebPrintTrackDB;
 
