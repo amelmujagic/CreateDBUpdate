@@ -1,3 +1,4 @@
+-- HOCU DA OVO BUDE patch
 create database WebPrintTrackDB;
 use WebPrintTrackDB;
 
@@ -6,7 +7,7 @@ Create table Korisnik
 IDKorisnik int identity(1,1) 
 	Constraint PK_Korisnik Primary key (IDKorisnik),
 Naziv NVARCHAR(100) not null,
-Lokacija NVARCHAR(100) not null, -- ?? možda æe trebati neki drugi tip podataka (GPS,...)
+Lokacija NVARCHAR(100) not null, -- ?? mozda ce trebati neki drugi tip podataka (GPS,...)
 AdresaUlica NVARCHAR(100) not null,
 AdresaKBroj NVARCHAR(100) not null,
 AdresaPostBroj NVARCHAR(100) not null
